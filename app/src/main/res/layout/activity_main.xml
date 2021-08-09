@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.giftedcat.justifylib.view.JustifyTextView
+        android:id="@+id/tv_titl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你好"
+        android:textSize="20sp"
+        app:extraWords=":"
+        app:numberWord="11" />
+
+    <com.giftedcat.justifylib.view.JustifyTextView
+        android:id="@+id/tv_titl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你好世"
+        android:textSize="20sp"
+        app:extraWords=":"
+        app:numberWord="11" />
+
+    <com.giftedcat.justifylib.view.JustifyTextView
+        android:id="@+id/tv_titl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你好世界"
+        android:textSize="20sp"
+        app:extraWords=":"
+        app:numberWord="11" />
+
+    <com.giftedcat.justifylib.view.JustifyTextView
+        android:id="@+id/tv_titl4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HelloWorld"
+        android:textSize="20sp"
+        app:extraWords=":"
+        app:numberWord="11" />
+
+    <com.giftedcat.justifylib.view.JustifyTextView
+        android:id="@+id/tv_titl5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello世界"
+        android:textSize="20sp"
+        app:extraWords=":"
+        app:numberWord="11" />
+
+    <com.giftedcat.justifylib.view.JustifyTextView
+        android:id="@+id/tv_titl6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你好World"
+        android:textSize="20sp"
+        app:extraWords=":"
+        app:numberWord="11" />
+
+
+</LinearLayout>

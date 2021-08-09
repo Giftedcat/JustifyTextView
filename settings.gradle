@@ -1,0 +1,3 @@
+include ':justifylib'
+include ':app'
+rootProject.name = "Demo"
